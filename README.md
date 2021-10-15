@@ -1,4 +1,7 @@
-# Project Protsahan Life Style Webpage
+# FOUR CORNERS
+
+_**Theme Protsahan Life Style Webpage**_
+(A small Protsahan by Four Corners to urge small business)
 
 ## Tech Used -
 
