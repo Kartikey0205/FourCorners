@@ -1,0 +1,406 @@
+@import "./variables";
+// import css of noty from node modules
+@import "~noty/src/noty.scss";
+@import "~noty/src/themes/mint.scss";
+
+body {
+  font-family: "Lato" sans-serif;
+  color: $dark;
+}
+
+//  navbar CSS
+nav li:last-child a {
+  background: $primary;
+  &:hover {
+    background: $primary-hover;
+  }
+}
+
+nav li a {
+  transition: $smooth;
+  &:hover {
+    color: $primary;
+  }
+}
+
+.logo a img {
+  max-width: 47px !important;
+}
+// hOME PAGE CSS
+
+section.hero {
+  background: $secondary;
+}
+
+.size {
+  background: $secondary;
+}
+
+//  home Image SLider
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 4px 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: block;
+
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+// Product CSS
+.section-title {
+  padding: 0 15px;
+  flex: 0 0 100%;
+  text-align: center;
+  max-width: 100%;
+  margin-bottom: 60px;
+}
+.section-title h2 {
+  display: inline-block;
+  font-size: 30px;
+  color: var(--text-black-900);
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.section-title h2::before {
+  content: attr(data-heading);
+  display: block;
+  font-size: 16px;
+  color: $primary;
+  font-weight: 600;
+}
+.section.hide {
+  display: none;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1000; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.modal-content h4 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  color: var(--text-black-100);
+  margin: 5px;
+}
+.modal .modal-content p {
+  text-align: left;
+  margin: 16px 18px;
+  padding: 5px;
+  line-height: 20px;
+}
+.modal .modal-content button {
+  display: block;
+  text-align: center;
+  width: auto;
+  /* width: 397px; */
+  margin: auto;
+  background-color: var(--bg-black-100);
+  padding: 6px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
+  font-size: 15px;
+  font-weight: 900;
+}
+.modal .modal-content button:hover {
+  background-color: var(--bg-black-50);
+}
+.modal .modal-content a button {
+  color: var(--text-black-700);
+  outline: none;
+  transition: all 0.3s ease;
+}
+/* The Close Button */
+.close {
+  color: var(--bg-black-100);
+  float: right;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container-1 {
+  max-width: 1150px;
+  margin: auto;
+}
+
+.row-1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-section {
+  padding: 80px 0 80px;
+  min-height: 100vh;
+}
+
+.product-section .section-title {
+  margin-bottom: 40px;
+}
+
+.product-section .product-filter {
+  padding: 9px 0 15px;
+  flex: 0 0 100%;
+  max-width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: currentColor;
+}
+
+.product-section .filter-item {
+  display: inline-block;
+  margin: 0 5px 10px;
+  padding: 5px 10px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 500;
+  color: $gray;
+  text-transform: capitalize;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.product-section .filter-item:hover:not(.active) {
+  opacity: 0.6;
+}
+
+.product-section .filter-item.active {
+  color: $primary;
+  background-color: black;
+}
+
+.product-section .product-item {
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-section .product-item.hide {
+  display: none;
+}
+
+.product-section .product-item.show {
+  animation: fadeInTop 0.5s ease;
+}
+
+.product-section .product-item-inner {
+  padding: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  box-shadow: 0px 5px 6px -4px $primary;
+}
+
+.product-section .product-item-img img {
+  border-radius: 5px;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+.product-section .product-item-img {
+  position: relative;
+}
+
+.product-section .product-item-title {
+  font-size: 15px;
+  margin: 10px 0 0;
+  color: var(--text-black-600);
+  text-transform: capitalize;
+}
+
+// Menu css
+
+.add-to-cart {
+  border: 2px solid $primary;
+  color: $primary;
+  transition: $smooth;
+  &:hover {
+    background: $primary;
+    border-color: $pure;
+    color: $pure;
+  }
+  // blue outline button p
+  &:focus {
+    outline: none;
+  }
+}
+
+//  Button CSS
+.btn-primary {
+  background: $primary;
+  &:hover {
+    background: $primary-hover;
+  }
+  transition: $smooth;
+}
+
+// Cart CSS
+
+section.cart {
+  background: $secondary;
+  .amount {
+    color: $primary;
+  }
+}
+
+//  LOGIN CSS
+
+section.login {
+  background: $secondary;
+  min-height: calc(100vh - 86px);
+  a {
+    color: $primary;
+    &:hover {
+      color: $primary-hover;
+    }
+  }
+}
+
+//  Notification custom css
+
+.noty_theme__mint {
+  border-radius: 50px !important;
+  padding-left: 8px !important;
+  font-weight: 900;
+}
+
+// order page
+
+a.link {
+  color: $primary;
+}
+
+// footer Css
+
+.footer {
+  margin-top: 48px;
+  display: block;
+  background-color: $gray;
+}
+
+.footer div a {
+  color: $primary;
+}
