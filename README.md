@@ -85,7 +85,7 @@ Steps to overcome these problems:
 
   ## PREVIEW OF THE APP -
 
-    <img src="https://user-images.githubusercontent.com/92504962/137590104-09ac3557-d9ec-4ca4-adf0-c39278be3e94.png" height="600" width="300">
+   <img src="https://user-images.githubusercontent.com/92504962/137590104-09ac3557-d9ec-4ca4-adf0-c39278be3e94.png" height="600" width="300">
 
 # Web Application
       * Frontend Tech Used -
