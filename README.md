@@ -1,13 +1,13 @@
-# FOUR CORNERS
+# Project - Four Corners
 
-### A Hackathon Project by Team "TERMINAL SQUAD"
+### A Hack-It-Out Hackathon Project by Team "TERMINAL SQUAD"
 
       Mitali Agrawal (Team Leader)
       Gunjan Kapoor
       Akshay Agarwal
       Kartikey Dubey
 
-# Topic based on lifestyle
+# Theme Based on Life Style
 
 ## What is Small Scale Businesses ?
 
@@ -75,7 +75,7 @@ Steps to overcome these problems:
 
 # Solution-
 
-- Android Application
+# Android Application
 
   :file_folder: <b>FourCornersApp</b> ---> It contains the app of our project for the sellers to register their shop.
 
@@ -87,7 +87,46 @@ Steps to overcome these problems:
 
     <img src="https://user-images.githubusercontent.com/92504962/137590104-09ac3557-d9ec-4ca4-adf0-c39278be3e94.png" height="600" width="300">
 
-- Web Application
+# Web Application
+      * Frontend Tech Used -
+            - HTML 
+            - CSS
+            - JS
+            - AJAX Call
+            - SCSS
+            - Tailwind CSS
+            
+      * Backend Tech Used - 
+            - Node Js
+            - Express Js
+            - EJS
+            - NPM Packages
+
+      * Database -
+            - MongoDb
+            
+      * Authentication -
+            - passport JS
+            - passportLocals
+            
+      * Other Tools -
+            - Laravel Mix
+            
+      * Real Time Connnections - 
+            - Socket.io
+            
+      * MVC pattern follwed
+      
+
+### PREVIEW -
+
+
+<br/>![Screenshot (317)](https://user-images.githubusercontent.com/66429038/137598821-778cac7c-872d-49c9-9481-4886569979d7.png)
+![Screenshot (318)](https://user-images.githubusercontent.com/66429038/137598822-0abce677-21ed-4bd2-9119-c36fb5845393.png)
+![Screenshot (319)](https://user-images.githubusercontent.com/66429038/137598823-08d08508-e2c3-46fc-b4ab-4709120bc2b7.png)
+![Screenshot (320)](https://user-images.githubusercontent.com/66429038/137598827-1cc2ca6e-ffd4-4c4a-87f5-125fa4a2c299.png)
+![Screenshot (321)](https://user-images.githubusercontent.com/66429038/137598828-1931e850-bef4-4af8-872b-75a7240f2e7b.png)
+
 
 # Robotics Process Automation (RPA)
 
@@ -110,12 +149,14 @@ _**UI Path**_
 
    <table>
   <tr>
-    <td><img src="https://user-images.githubusercontent.com/62433560/137595681-736c8f0d-dbcd-41ed-b6df-49d9dfd8f665.PNG" width=500 height=400></td>
-    <td><img src="https://user-images.githubusercontent.com/62433560/137595789-9b8dd9ac-8a22-4757-8fdc-3a6a22523a76.PNG" width=500 height=400></td>
+    <td><img src="https://user-images.githubusercontent.com/62433560/137595681-736c8f0d-dbcd-41ed-b6df-49d9dfd8f665.PNG" width=350 height=500 </td>
+    <td><img src="https://user-images.githubusercontent.com/62433560/137595789-9b8dd9ac-8a22-4757-8fdc-3a6a22523a76.PNG" width=350 height=500></td>
   </tr>
  </table>
 
 <br/>
 <br/>
+
+
 
 <h2 align="center">THANK YOU</h2>
