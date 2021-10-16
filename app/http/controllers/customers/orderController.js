@@ -44,6 +44,11 @@ function orderController() {
         { sort: { createdAt: -1 } } // sorting as new will come first (descending order -1)
       );
 
+      res.header(
+        "Cache-Control",
+        "no-cache, private , no-store, must-revalidate, max-stale = 0 , post-check = 0 , pre-check =0"
+      );
+
       // Y ARRAY OF OBJECT H JO KI HMKO MIL RHA H AUR AB ISE HME FRONTEND P BHEJNA H
       // console.log(orders);
       res.render("customer/order", {

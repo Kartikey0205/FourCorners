@@ -8,11 +8,12 @@ function orderController() {
       })
         .populate("customerId", "-password")
         .exec((err, orders) => {
-          // if (req.xhr) {
-          //   return res.json(orders);
-          // } else {
-          return res.render("admin/orders");
-          // }
+          // Ajax call using axios nut not direct call so sending data in json form
+          if (req.xhr) {
+            return res.json(orders);
+          } else {
+            return res.render("admin/orders");
+          }
         });
     },
   };

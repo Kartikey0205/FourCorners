@@ -57,6 +57,8 @@ if (alertMsg) {
   }, 2000);
 }
 
+initAdmin();
+
 // Slidehow js
 var slideIndex = 0;
 showSlides();

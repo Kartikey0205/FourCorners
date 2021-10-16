@@ -14,6 +14,8 @@ const guest = require("./../app/http/middleware/guest");
 // AUTH Middleware is for checking whether a user is logged in or not if logged in then render what user wants otherwise redirect to login page
 const auth = require("./../app/http/middleware/auth");
 
+const admin = require("./../app/http/middleware/admin");
+
 // y function h jisme app get kr rhe  h hm server.js se
 function initRoutes(app) {
   // GENERAL ROUTES
@@ -118,7 +120,7 @@ function initRoutes(app) {
   @access     -     PRIVATE (for each user)
   @middleware -     auth
   */
-  app.get("/admin/orders", auth, adminOrderController().index);
+  app.get("/admin/orders", admin, adminOrderController().index);
 }
 
 // init routes ko export kr diye h taki is file ko koi bhi  reuore kre toh init function usko mil jaye
