@@ -98,7 +98,32 @@ In every economy, small scale businesses are million little parts of the car's e
 
 
 
-* Robotics Process Automation (RPA)
+# Robotics Process Automation (RPA)
+   ### What is RPA?
+Robotic process automation (RPA) is a software technology that makes it easy to build, deploy, and manage software robots that emulate humans actions interacting with digital systems and software. Just like people, software robots can do things like understand what’s on a screen, complete the right keystrokes, navigate systems, identify and extract data, and perform a wide range of defined actions. We have used SMTP Email Automation Activity to get customers data from the excel sheet.
 
+   ### Tool Used - 
+
+   _**UI Path**_
+   
+   ### Uses in Website - 
+   
+   * SignUp Automation
+   * Payment Automation
+   * Shopkeeper Registration Automation
+   * Offer Mails
+ 
+
+   ### PREVIEW - 
+   <table>
+  <tr>
+    <td><img src="https://user-images.githubusercontent.com/62433560/137595681-736c8f0d-dbcd-41ed-b6df-49d9dfd8f665.PNG" width=500 height=400></td>
+    <td><img src="https://user-images.githubusercontent.com/62433560/137595789-9b8dd9ac-8a22-4757-8fdc-3a6a22523a76.PNG" width=500 height=400></td>
+  </tr>
+ </table>
+
+
+<br/>
+<br/>
 
 <h2 align="center">THANK YOU</h2>
