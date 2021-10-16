@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
                 animation.setInterpolator(interpolator);
                 b.visitBtn.startAnimation(animation);
 
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.linkedin.com/in/mitaliagrawal17/"));
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/Kartikey0205/FourCorners"));
                 startActivity(intent);
             }
         });

@@ -1,11 +1,5 @@
 # FOUR CORNERS
 
-_**Theme Protsahan Life Style Webpage**_
-(A small Protsahan by Four Corners to urge small business)
-
-## Tech Used -
-
-_**HTML , CSS , JS , NODE js , ExpressJs , MongoDB , EJS , Laravel Mix, NPM Packages**_
 
 # HACK DAY :Build- JECRC UNIVERSITY 2021 Project 
 
@@ -84,6 +78,29 @@ In every economy, small scale businesses are million little parts of the car's e
   
 
   
-  
-  
-                                              Thank you
+  # Solution-
+
+* Android Application 
+
+    :file_folder: <b>FourCornersApp</b> ---> It contains the app of our project for the sellers to register their shop. 
+
+    ## Tech Used - 
+
+    _**JAVA , XML**_
+
+    ## PREVIEW OF THE APP - 
+    <img src="" height="" width="">
+
+
+
+* Web Application
+
+
+
+
+
+* Robotics Process Automation (RPA)
+
+
+
+        THANK YOU

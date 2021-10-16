@@ -1,0 +1,129 @@
+<section class="cart py-16">
+  <!-- EMPTY CART SHOW HOGA IF session mein cart k key nhi h toh   -->
+  <% if(!session.cart){%>
+  <div class="empty-cart py-16">
+    <div class="container mx-auto text-center">
+      <h1 class="text-3xl font-bold mb-2">Cart Empty 😐</h1>
+      <p class="text-gray-500 text-lg mb-12">
+        You probably haven't shop yet.<br />
+        For enjoying the best Lifestyle , go back to main Page.
+      </p>
+      <img class="w-2/5 mx-auto" src="/img/empty-cart.png" alt="empty-cart" />
+      <a
+        href="/"
+        class="
+          inline-block
+          px-6
+          py-2
+          rounded-full
+          btn-primary
+          text-white
+          font-bold
+          mt-12
+        "
+        >Go Back</a
+      >
+    </div>
+  </div>
+
+  <!-- Order SHOW HOGA IF session mein cart ki key h toh   -->
+  <% } else { %>
+  <div class="order container mx-auto w-1/2">
+    <div class="flex items-center border-b border-gray-300 pb-4">
+      <img src="/img/cart-black.png" alt="cart_Image" srcset="" />
+      <h1 class="font-bold ml-4 text-xl">Order Summary</h1>
+    </div>
+    <!--  Order Summary -->
+
+    <div class="product-list">
+      <!-- For looping we need array so converting object into array in this way -->
+      <% for(let product of Object.values(session.cart.items)) { %>
+      <div class="flex items-center my-8">
+        <img class="w-24" src="/img/<%= product.item.image%>" alt="" />
+        <div class="flex-1 ml-4">
+          <h1><%= product.item.name%></h1>
+          <span><%= product.item.size%></span>
+        </div>
+        <span class="flex-1"><%= product.qty%> Pcs.</span>
+        <span class="font-bold text-lg"
+          >₹<%= product.item.price * product.qty%></span
+        >
+      </div>
+
+      <% } %>
+    </div>
+
+    <hr />
+
+    <div class="text-right py-4">
+      <div>
+        <span class="text-lg font-bold"> Total Amount: </span>
+        <span class="amount text-2xl font-bold ml-2"
+          >₹ <%= session.cart.totalPrice%></span
+        >
+      </div>
+      <!-- Order submisssion form  -->
+
+      <!--  If login h user to order kr skta h  -->
+      <% if(user){%>
+
+      <!-- ORDERING ROUTE -->
+      <div>
+        <form action="/orders" method="POST" class="mt-12">
+          <input
+            type="text"
+            name="phone"
+            id=""
+            class="border border-gray-400 p-2 w-1/2 mb-4"
+            placeholder="Phone Number"
+          />
+          <input
+            type="text"
+            name="address"
+            id=""
+            class="border border-gray-400 p-2 w-1/2 mb-4"
+            placeholder="Address"
+          />
+          <div>
+            <button
+              type="submit"
+              class="
+                px-6
+                py-2
+                rounded-full
+                text-white
+                font-bold
+                mt-6
+                btn-primary
+              "
+            >
+              Order Now
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <!--  If login  nhi h user to order nhi kr skta h  -->
+
+      <% } else{%>
+      <a
+        href="/login"
+        class="
+          inline-block
+          cursor-pointer
+          px-6
+          py-2
+          rounded-full
+          text-white
+          font-bold
+          mt-6
+          btn-primary
+        "
+        >Login to Continue</a
+      >
+      <% } %>
+    </div>
+  </div>
+
+  <% } %>
+</section>
