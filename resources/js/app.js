@@ -1,5 +1,6 @@
 import axios from "axios"; // calling from node modules folder
 import Noty from "noty"; // calling Noty from Node mosules folder Noty
+import { initAdmin } from "./admin";
 
 let addToCart = document.querySelectorAll(".add-to-cart");
 let cartCounter = document.getElementById("cartCounter");
