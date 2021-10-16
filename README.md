@@ -1,11 +1,10 @@
 # FOUR CORNERS
 
 
-# HACK DAY :Build- JECRC UNIVERSITY 2021 Project 
 
 
 ### A Hackathon Project by Team "TERMINAL SQUAD"
-      Mitali Agarwal (Team Leader)
+      Mitali Agrawal (Team Leader)
       Gunjan Kapoor 
       Akshay Agarwal
       Kartikey Dubey
@@ -89,7 +88,7 @@ In every economy, small scale businesses are million little parts of the car's e
     _**JAVA , XML**_
 
     ## PREVIEW OF THE APP - 
-    <img src="" height="" width="">
+    <img src="https://user-images.githubusercontent.com/92504962/137590104-09ac3557-d9ec-4ca4-adf0-c39278be3e94.png" height="600" width="300">
 
 
 
@@ -102,5 +101,4 @@ In every economy, small scale businesses are million little parts of the car's e
 * Robotics Process Automation (RPA)
 
 
-
-        THANK YOU
+<h2 align="center">THANK YOU</h2>
