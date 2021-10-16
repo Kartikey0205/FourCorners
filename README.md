@@ -82,8 +82,7 @@ In every economy, small scale businesses are million little parts of the car's e
 ## How to get revenue? 
   #### If ShopOwners register themselves on our platform for the first two orders we will not not charge and will provide them assistance to get them hand on practice with the system. After the two orders we will take a small % percentage of amount of every order placed through us.
   
-  ### Project Preview
-  ![img width="956" alt="2021-01-17 (8)](https://user-images.githubusercontent.com/66429038/104828062-6d287b00-588b-11eb-8235-d9d605fc99e1.png)
+
   
   
   
