@@ -22,6 +22,8 @@ In every economy, small scale businesses are million little parts of the car's e
 
 #### Small Scale Industries do not enjoy much of the advantages enjoyed by large scale enterprises because of their nature and size. Though they have made significant contribution to economic development, they have not realized their full potential. They face many problems in their functioning and many Small Scale Industries are sick.
 
+### [Youtube Demo Link](https://youtu.be/UK1gxLNTdao)
+
 The government had reserved certain items for exclusive production by Small Scale Industries. Large scale enterprises were not allowed to produce the items which were reserved for the SSI sector. With the opening up of the economy and following the principles of liberalization and globalization, many items have been successively De-reserved. Therefore Small Scale Industries have to now counter the twin forces of competition from Indian large scale enterprises as well as foreign competitors.
 Following are the problems faced:-
 
@@ -77,26 +79,42 @@ Steps to overcome these problems:
 
 # Android Application
 
-  :file_folder: <b>FourCornersApp</b> ---> It contains the app of our project for the sellers to register their shop.
+:file_folder: <b>FourCornersApp</b> ---> It contains the app of our project for the sellers to register their shop.
 
-  ## Tech Used -
+## Tech Used -
 
-  _**JAVA , XML**_
+_**JAVA , XML**_
 
-  ## PREVIEW OF THE APP -
+## PREVIEW OF THE APP -
 
    <img src="https://user-images.githubusercontent.com/92504962/137590104-09ac3557-d9ec-4ca4-adf0-c39278be3e94.png" height="600" width="300">
 
 # Web Application
+
+- We the Team Terminal Squad decided to come with a solution for urge a small business .
+- So for this we decided to built a website which will give a platform for all the shopkeeper whose business is being left behind due to many reasons (recently due to the pandemic).
+- Here after succesful registration of Shops via our Android App and after the cross-verification of shops by our Team , we Keep that shop in our platform i.e, Four Corners (Whoose moto is to urge a small business from any corner).
+
+- Customers will come and can buy a variety of products from our shops but before shoping he/she must be register in our website and afterwards they continue their shoping
+- As a user buy any product a mail will be sent to that particular project by RPA and this time we are accepting only Cash On Delivery but very soon we wll be coming with various payment gateway.
+- After purchasing items he/she redirected to the tracking page where they can track their order
+
+- Now every shopkeeper has a unique id for login in website where that particular can see their order and update customer order process from their side which will be reflected on users side as well by a socket.io (Real time communication).
+- All the mails related to this from signup to out for delivery.. will be automatically sent to every customer as well as shopkeeper too for their shop's order.
+
+- This is the total workflow how websites work
+
+- Any suggestion which will enhances our idea is welcome here.
+
       * Frontend Tech Used -
-            - HTML 
+            - HTML
             - CSS
             - JS
             - AJAX Call
             - SCSS
             - Tailwind CSS
-            
-      * Backend Tech Used - 
+
+      * Backend Tech Used -
             - Node Js
             - Express Js
             - EJS
@@ -104,29 +122,28 @@ Steps to overcome these problems:
 
       * Database -
             - MongoDb
-            
+
       * Authentication -
             - passport JS
             - passportLocals
-            
+
       * Other Tools -
             - Laravel Mix
-            
-      * Real Time Connnections - 
+            - Noty
+            - flash
+
+      * Real Time Connnections -
             - Socket.io
-            
+
       * MVC pattern follwed
-      
 
 ### PREVIEW -
-
 
 <br/>![Screenshot (317)](https://user-images.githubusercontent.com/66429038/137598821-778cac7c-872d-49c9-9481-4886569979d7.png)
 ![Screenshot (318)](https://user-images.githubusercontent.com/66429038/137598822-0abce677-21ed-4bd2-9119-c36fb5845393.png)
 ![Screenshot (319)](https://user-images.githubusercontent.com/66429038/137598823-08d08508-e2c3-46fc-b4ab-4709120bc2b7.png)
 ![Screenshot (320)](https://user-images.githubusercontent.com/66429038/137598827-1cc2ca6e-ffd4-4c4a-87f5-125fa4a2c299.png)
 ![Screenshot (321)](https://user-images.githubusercontent.com/66429038/137598828-1931e850-bef4-4af8-872b-75a7240f2e7b.png)
-
 
 # Robotics Process Automation (RPA)
 
@@ -149,14 +166,12 @@ _**UI Path**_
 
    <table>
   <tr>
-    <td><img src="https://user-images.githubusercontent.com/62433560/137595681-736c8f0d-dbcd-41ed-b6df-49d9dfd8f665.PNG" width=350 height=500 </td>
-    <td><img src="https://user-images.githubusercontent.com/62433560/137595789-9b8dd9ac-8a22-4757-8fdc-3a6a22523a76.PNG" width=350 height=500></td>
+    <td><img src="https://user-images.githubusercontent.com/62433560/137595681-736c8f0d-dbcd-41ed-b6df-49d9dfd8f665.PNG" width=450 height=350> </td>
+    <td><img src="https://user-images.githubusercontent.com/62433560/137595789-9b8dd9ac-8a22-4757-8fdc-3a6a22523a76.PNG" width=450 height=350></td>
   </tr>
  </table>
 
 <br/>
 <br/>
-
-
 
 <h2 align="center">THANK YOU</h2>

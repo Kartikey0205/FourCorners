@@ -5,7 +5,7 @@ const authController = require("../app/http/controllers/authController");
 const cartController = require("../app/http/controllers/customers/cartController");
 const orderController = require("../app/http/controllers/customers/orderController");
 const adminOrderController = require("../app/http/controllers/admin/orderController");
-
+const adminStatusController = require("../app/http/controllers/admin/statusController");
 // MIDDLEWARE
 
 // GUEST Middleware is for checking that if user is logged in and then also he tries to click on login  or register route  then instead of showing him login and register page render him a home page
@@ -115,12 +115,21 @@ function initRoutes(app) {
 
   /*
   @type       -     GET
-  @route      -     /customer/orders
-  @desc       -     route for showing ordering details for each user
-  @access     -     PRIVATE (for each user)
-  @middleware -     auth
+  @route      -     /admin/orders
+  @desc       -     route for showing ordering details of user to admin
+  @access     -     PRIVATE (for each admin)
+  @middleware -     admin
   */
   app.get("/admin/orders", admin, adminOrderController().index);
+
+  /*
+  @type       -     POST
+  @route      -     /admin/order/status
+  @desc       -     route for showing ordering details of user to admin
+  @access     -     PRIVATE (for each admin)
+  @middleware -     admin
+  */
+  app.post("/admin/order/status", adminStatusController().update);
 }
 
 // init routes ko export kr diye h taki is file ko koi bhi  reuore kre toh init function usko mil jaye
