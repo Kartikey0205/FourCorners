@@ -168,6 +168,7 @@ _**UI Path**_
   <tr>
     <td><img src="https://user-images.githubusercontent.com/62433560/137595681-736c8f0d-dbcd-41ed-b6df-49d9dfd8f665.PNG" width=450 height=350> </td>
     <td><img src="https://user-images.githubusercontent.com/62433560/137595789-9b8dd9ac-8a22-4757-8fdc-3a6a22523a76.PNG" width=450 height=350></td>
+
   </tr>
  </table>
 
